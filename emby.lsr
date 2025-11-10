@@ -17,7 +17,10 @@ DOMAIN-SUFFIX,bai3.yezi.my
 DOMAIN-SUFFIX,gm.yezi.my
 
 #!Emby-Flarelx（瓜瓜机场服）
-DOMAIN-SUFFIX,media.emby.vip
+#直连线路
+DOMAIN-SUFFIX,cn.emby.vip
+#海外线路
+DOMAIN-SUFFIX,gl.emby.vip
 
 #!Emby-Nebula Media（星云）
 DOMAIN-SUFFIX,emby.nebula-media.org
