@@ -14,7 +14,10 @@ http-response (https:\/\/)?t\.me\/(.+) script-path=https://raw.githubusercontent
 # ======== 核心域名规则 ========
 # iturrit官方域名（强制代理避免DNS污染）
 DOMAIN,api.iturrit.com,PROXY
+DOMAIN,api.swiftgram.app,PROXY
+
 DOMAIN-SUFFIX,iturrit.com,PROXY
+DOMAIN-SUFFIX,api.swiftgram.app,PROXY
 
 # Telegram官方及CDN域名
 DOMAIN-SUFFIX,t.me,PROXY
@@ -40,7 +43,7 @@ IP-CIDR,91.108.56.0/22,美国节点,no-resolve  # Telegram迈阿密IP段
 # 避免国内DNS污染 (强制走代理解析)
 DNS,api.iturrit.com,PROXY
 DNS,telegram.org,PROXY
-
+DNS,api.swiftgram.app,PROXY
 # 移动网络优化
 CELLULAR,true,新国节点  # 蜂窝网络默认走新加坡节点
 
